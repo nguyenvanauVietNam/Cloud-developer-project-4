@@ -1,8 +1,8 @@
 # TODO: Change the name of the org 
-org: udacity-aunv
+org: nguyenvanauvietnam
 app: serverless-todo-app-1
 service: serverless-todo-app-1
-frameworkVersion: '3.34.0'
+frameworkVersion: '3.38.0'
 
 plugins:
   - serverless-webpack
@@ -14,7 +14,6 @@ plugins:
 provider:
   name: aws
   runtime: nodejs16.x
-
   stage: ${opt:stage, 'dev'}
   region: ${opt:region, 'us-east-1'}
   profile: default

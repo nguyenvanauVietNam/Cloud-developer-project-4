@@ -1,3 +1,21 @@
 
 
-sls config credentials --provider aws --key ASIASXCFL3A2XG6OOFOU --secret sDRzP3xCWR4ibrASEDWPMsc1nifAHM2HuW7xTnML --profile serverless
+
+
+
+[Fix serverless]
+serverless config credentials --provider aws --key ASIASXCFL3A2XG6OOFOU --secret sDRzP3xCWR4ibrASEDWPMsc1nifAHM2HuW7xTnML --profile serverless
+
+[Fix deploy]
+edit file:C:\Users\aunv\.aws\credentials
+--------------------------------
+[default]
+aws_access_key_id=ASIASXCFL3A2XG6OOFOU
+aws_secret_access_key= sDRzP3xCWR4ibrASEDWPMsc1nifAHM2HuW7xTnML
+aws_session_token=FwoGZXIvYXdzEMv//////////wEaDEv/8cGItMCSIpl0ZCLVAbfnAHgqgRX71Xj/FOKwrRf2y57WYwi0pELN8KN7QfkAZxNSIxCj4KiTl710JRkacV6U3SJXan3l2CuOQS7tCtJtCop4xB2JrwQYkEIXseVuUoRkw5U7QiSDV09/OI5pf0NcMQ1hMlukAIgcUn3OfuaCqOupjY4seTI/I4FRDd4+14g7pD+RY6V3Kwz6KYdvxGztzA4semQDxI2HZGArKsLLYq1y6LZRwegTBaw/SAjmafKmcRVlm0oRgyxEChA13zoGXZjqNrrt3v5BURKNi60RT3fhlijBy/utBjItv4OqfgFEsitME3hZLEZlTGWWKpG9u6vgDxLJ9cxuqx+sJNIx3N9O1Yz3Wu/Q
+
+[serverless]
+aws_access_key_id=ASIASXCFL3A2XG6OOFOU
+aws_secret_access_key= sDRzP3xCWR4ibrASEDWPMsc1nifAHM2HuW7xTnML
+aws_session_token=FwoGZXIvYXdzEMv//////////wEaDEv/8cGItMCSIpl0ZCLVAbfnAHgqgRX71Xj/FOKwrRf2y57WYwi0pELN8KN7QfkAZxNSIxCj4KiTl710JRkacV6U3SJXan3l2CuOQS7tCtJtCop4xB2JrwQYkEIXseVuUoRkw5U7QiSDV09/OI5pf0NcMQ1hMlukAIgcUn3OfuaCqOupjY4seTI/I4FRDd4+14g7pD+RY6V3Kwz6KYdvxGztzA4semQDxI2HZGArKsLLYq1y6LZRwegTBaw/SAjmafKmcRVlm0oRgyxEChA13zoGXZjqNrrt3v5BURKNi60RT3fhlijBy/utBjItv4OqfgFEsitME3hZLEZlTGWWKpG9u6vgDxLJ9cxuqx+sJNIx3N9O1Yz3Wu/Q
+===============================
