@@ -1,0 +1,3 @@
+
+
+sls config credentials --provider aws --key ASIASXCFL3A2XG6OOFOU --secret sDRzP3xCWR4ibrASEDWPMsc1nifAHM2HuW7xTnML --profile serverless
